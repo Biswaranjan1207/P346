@@ -68,16 +68,16 @@ def check(M,X):
     print(s)
   return
 
-def main(p):
-  p=str(p)
-  A = input(p)
-  print("The input matrix is : \n")
-  printmatrix(A)
+def main(A):
+  #p=str(p)
+  #A = input(p)
+  #print("The input matrix is : \n")
+  #printmatrix(A)
   B=gje(A)
   n=len(B)
   print("The solution of the given linear equations using Gauss-Jordon elimination mathod is : \n")
   for i in range (0,n):
     print("x"+str(i+1)+" = "+str(B[i,n]))
-  return
+  return B
 
 

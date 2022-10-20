@@ -47,7 +47,7 @@ def gauss(M):
             sum2=0.0
             for l in range(j+1,n):
                 sum=sum+(M[j,l]*X1[0,l])
-            for m in range(1,j):
+            for m in range(0,j):
                 sum2=sum2+(M[j,m]*X2[0,m])
             X2[0,j]= (M[j,n]-sum-sum2)/M[j,j]
         a=0

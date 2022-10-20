@@ -1,0 +1,2 @@
+The value of x in the equation: 4.96511423174643
+Wein's constant b: 0.002899010330737035
