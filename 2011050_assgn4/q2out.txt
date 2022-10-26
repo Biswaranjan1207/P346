@@ -1,0 +1,7 @@
+No. of iterations for bisection method: 22
+The value of root using bisection method is :  -0.7390851974487305
+No of iterations for regula falsi method: 6
+Required root using Regula falsi method: -0.7390850630385933     
+No. of iterations in newton raphson method: 5
+The root of the equation using newton raphson method: -0.7390851332151607
+The root of the given equation is computed in smaller no. of iterations in Newton-Raphson method...

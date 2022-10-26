@@ -1,0 +1,6 @@
+You have not assumed right a and b
+
+No. of iterations for bisection method: 20
+The value of root using bisection method is :  2.623140335083008 
+No of iterations for regula falsi method: 4
+Required root using Regula falsi method: 2.6231404360670574 

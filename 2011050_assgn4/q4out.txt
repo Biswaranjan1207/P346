@@ -1,0 +1,9 @@
+The solution of the given linear equations using Gauss-Jordon elimination mathod is :
+
+x1 = 0.5746586674196172
+x2 = 4.725861442141895
+x3 = -11.12821777764321
+x4 = 7.66867762290942
+The equation corresponding to the data:
+
+y =  0.5746586674196172 + 4.725861442141895 x^1 + -11.12821777764321 x^2 + 7.66867762290942 x^3
