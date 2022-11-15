@@ -1,10 +1,8 @@
 #Non linear equations using regula falsi method
 import math
 def f(x):
-    return math.cos(x)-x**3
-def refal():
-    a0=-1.5
-    b0=1.5
+    return math.log(x/2)-math.sin(5*x/2)
+def refal(a0,b0):
     iter=0
     if f(a0)*f(b0)>0:
         print("Try another guess!!!")
@@ -16,7 +14,7 @@ def refal():
         elif f(c0)*f(b0)<0:
             a0=c0
         iter+=1
-    print("No of iterations:",iter)
-    print("The value of root is",c0)
-refal()
+    print("No of iterations for regula falsi method:",iter)
+    print("Required root using Regula falsi method:",c0)
+
     

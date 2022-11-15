@@ -1,18 +1,19 @@
 import math
 def f(x):
-    y=(x-5)*math.exp(x)+5
+    y=-x-math.cos(x)
     return y
 def d(x):
-    y = (x-4)*math.exp(x)
+    y = -1+math.sin(x)
     return y
 
 def main(x):
-    while abs(f(x))> 10**-4:
+    ct=1
+    a=f(x)/d(x)
+    while abs(a)> 10**-6:
         a=f(x)/d(x)
         x=x-a
-    print("The value of x in the equation:",x)
-    h=6.626*10**-34
-    c=3*10**8
-    k=1.381*10**-23
-    print("Wein's constant b:",(h*c)/(k*x))
+        ct+=1
+    print("No. of iterations in newton raphson method:",ct)
+    print("The root of the equation using newton raphson method:",x)
+
 
