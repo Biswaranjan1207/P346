@@ -1,0 +1,2 @@
+The slope value after interpolation: 12.505494528475541
+The position x at which the temperature is 100 C(=373 K): 4.482700000002891
