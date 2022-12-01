@@ -1,0 +1,7 @@
+10  Monte Carlo Simulations of size 10000
+Probability Mean: 0.00223
+Probability Standard deviation: 0.00042
+
+ 10 Importance Sampling Simulations of size 10000
+Probability Mean: 0.00215
+Probability Standard deviation: 0.00011
